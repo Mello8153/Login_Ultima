@@ -1,0 +1,111 @@
+* {
+
+margin: 0;
+padding:0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.Conteudo_geral {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.conteudo_login{
+
+    width:400px ;
+    height: 400px;
+    background-color: rgb(245, 212, 26);
+    border-radius: 20px;
+    
+    
+
+    
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+
+    width: 316px;
+    height: 56px;
+    background: #ffffff;
+    border: 0;
+    margin-bottom: 1rem;
+    padding:0px 12px;
+    border-radius: 12px;
+    border-style: hidden;
+} 
+
+button{
+
+    width: 340px;
+    height: 56px;
+    background: #2A88C8;
+    margin-bottom: 1rem;
+    padding:0px 12px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 12px;
+    border-style: hidden;
+    cursor: pointer;
+
+    }
+
+h4{
+
+    font-size: small;
+    width: 350x;
+}
+
+h2{
+
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+a{
+
+padding:0 5px ;
+
+}
+
+button:hover {
+    background-color: rgb(0, 27, 76);
+    color:white;
+    transition-duration: 2s;
+  
+
+    }
+
+    h1{
+        height: 200px;
+        margin-bottom: 10px;
+        margin-top: -150px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+
+    }
+
+   img{
+
+    margin-top: -50px;
+   }
+
+    
